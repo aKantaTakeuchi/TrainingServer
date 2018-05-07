@@ -12,7 +12,7 @@ defmodule MyappIex do
       :world
 
   """
-  def hello do
-    :world
+  def main(_argv)  do
+    IO.puts("Hello!")
   end
 end
